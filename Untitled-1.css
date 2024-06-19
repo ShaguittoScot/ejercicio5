@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    width: 80%;
+    border-collapse:collapse;
+    border: 3px solid darkcyan;
+}
+th{
+    background-color: darkcyan;
+    color: azure;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid darkcyan;
+}
+tr:nth-child(even){
+    background-color: cadetblue;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 40%;
+}
